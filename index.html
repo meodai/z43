@@ -47,6 +47,18 @@ h1, h2, h3 {
   Zentralstrasse 43 <br/>
   8003 Zürich
 </address>
+<script>
+var now = new Date();
+var hour = now.getHours();
+
+if (hour > 8 && hour < 21) {
+  document.documentElement.style.setProperty('--bg', '#fff');
+  document.documentElement.style.setProperty('--contrast', '#000');
+} else {
+  document.documentElement.style.setProperty('--bg', '#212121');
+  document.documentElement.style.setProperty('--contrast', '#fff');
+}
+</script>
 </body>
 </html>
  
