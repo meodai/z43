@@ -13,6 +13,11 @@
   --contrast: #000;
   --iteraction: #75f5d7;
 }
+@media (min-width: 850px) {
+  :root {
+    font-size: 1rem;
+  }
+}
 
 ::-moz-selection {
   background: var(--contrast, #fff);
@@ -30,7 +35,7 @@
 }
 
 body {
-  padding: 1vw 5.5vw 5.25vw;
+  padding: .7rem 2rem 3rem;
   background: #fff;
   background: var(--bg, #fff);
   color: #000;
@@ -49,6 +54,10 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+.content {
+  max-width: 34rem;
 }
 
 .logo {
@@ -326,7 +335,7 @@ a:hover .letter {
 </style>
 </head>
 <body>
-<main>
+<main class="content">
   <h1 class="logo">Z43</h1>
   <h2 class="tagline">A network of passionate digital freelancers<h2>
   <section>
