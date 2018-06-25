@@ -82,12 +82,33 @@ a:hover {
   margin-top: 1.25rem;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
+.button {
+  display: inline-block;
+  background: var(--iteraction);
+  color: var(--bg);
+  padding: .3em 1.25em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: 0.1rem solid var(--contrast);
+  box-shadow: 0.25em 0.25em 0 0 var(--contrast);
+  transition: 150ms box-shadow ease-out, 150ms -webkit-transform ease-out;
+  transition: 150ms box-shadow ease-out, 150ms transform ease-out;
+  transition: 150ms box-shadow ease-out, 150ms transform ease-out, 150ms -webkit-transform ease-out;
+  will-change: box-shadow, transition;
+}
+.button:hover {
+  -webkit-transform: translate(-0.05em, -0.05em);
+          transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.05em 0.05em 0 0 var(--contrast);
+  text-decoration: none;
+}
+
+.rent {
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 1.5;
+}
+.rent__cta {
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .letter {
@@ -96,6 +117,7 @@ a:hover {
           animation: 1500ms boing infinite alternate ease-in-out;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+  will-change: transform;
 }
 .letter:nth-child(0) {
   -webkit-animation-delay: 0ms;
@@ -295,6 +317,13 @@ a:hover .letter {
             transform: translateY(0%);
   }
 }
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
 </style>
 </head>
 <body>
@@ -324,6 +353,11 @@ a:hover .letter {
       </li>
     </ul>
   </section>
+  <aside class="rent">
+    <h3 class="visually-hidden">Rent a desk</h3>
+    <p class="rent__intro">We rent out one of our desks on a daily basis for 40.- /day. Includes free coffee and a team of experts to help and entertain you.</p>
+    <a class="rent__cta button"href="https://app.stairlin.com/z43-office/book/">Book a desk</a>
+    </aside>
   <address class="address">
     Zentralstrasse 43 <br/>
     8003 Zürich
