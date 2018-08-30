@@ -11,8 +11,12 @@ Wir sind eine Gruppe von passionierten Projektleiter, Designer und Entwickler. W
 
 Es ist uns ein anliegen, dass wir uns manchmal treffen, um den austausch zu fördern und ideen und gedanken aus zu tauschen und zu challangen.
 
-## No hyrarchy 
-
 ## Cost transparency for clients
 - Only pay what you asked for
 - Choose your team
+
+## For clients
+
+Da wir keine Agentur sind, können sich Kunden aussuchen, mit wem oder in welchem Rahmen sie mit den eizelnen Mitglieder arbeiten wollen. Kunden arbeiten also mit den Kompetäntesten Personen für eine Aufgabe und nicht einfach mit dem erstbesten Angestellten der gerade am wenigsten ausgelastet ist. 
+
+Jeder kennt seine Kompetenzen und Grenzen aber auch gute Leute um diese Grenzen zu erweitern oder Arbeit witer zu geben.
