@@ -1,4 +1,6 @@
 
+THIS IS A DRAFT
+___
 # A network of passionate digital freelancers
 
 Wir sind eine Gruppe von passionierten Projektleiter, Designer und Entwickler. Wir treten als Netzwerk auf, da wir alle eigenstäntig sind aber gerne und gut miteinander arbeiten.
