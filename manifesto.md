@@ -10,7 +10,8 @@ Wir sind eine Gruppe von passionierten Projektleiter, Designer und Entwickler. W
 ## Lean working (Minimal overhead)
 
 - Only pay what you aked for. 
-- Have an detailed overviwe over tasks an coasts.
+- Have an detailed overview over tasks an coasts.
+- On demand project management.
 
 ## Share a physical space
 
@@ -26,4 +27,5 @@ Jeder kennt seine Kompetenzen und Grenzen aber auch gute Leute um diese Grenzen 
 
 - Only pay what you asked for
 - Cost transparancy
-- 
+
+## For members
