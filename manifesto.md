@@ -21,12 +21,12 @@ Jeder von uns kennt seine Kompetenzen und Grenzen, aber auch gute Leute im um di
 - Bezahle nur für die Arbeit die du bestellst.
 - Unser «Overhead» ist mehr als Minimal.
 - Erhalte eine detailierte Übersicht über Aufgaben und Kosten. Individuell pro Freelancer.
-- Kein Online Projektleiter oder Web-Consultant im Haus? Wir schon.
+- Hast du kein Online Projektleiter oder Web-Consultant im Haus? Wir schon.
 - Könnt ihr auch ein ganzes Online-Projekt umsetzen? Aber klar.
 
 ## Für Mitglieder
 
-Wir teilen uns ein gemeinsamen Ort. Die Zentralstrasse 43. Aber auch angrenzende Räumlichkeiten oder Expertisen werden in Zukunft in dieses Netzwerk wachsen.
+Wir teilen uns einen gemeinsamen Ort. Die Zentralstrasse 43. Aber auch angrenzende Räumlichkeiten oder Expertisen werden in Zukunft in dieses Netzwerk wachsen.
 
 ## Share a physical space
 
