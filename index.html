@@ -9,60 +9,432 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700|IBM+Plex+Serif" rel="stylesheet">
 <style>
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700");
-h1 {
-  display: block;
-  font-family: 'Abril Fatface', cursive;
-  font-weight: normal;
-  font-size: 8rem;
-  color: #f04e45;
+
+:root {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: calc(.3rem + 2vw);
+  --bg: #fff;
+  --contrast: #000;
+  --iteraction: #75f5d7;
+}
+@media (min-width: 850px) {
+  :root {
+    font-size: calc(1.2rem + .38vw);
+  }
 }
 
-.hidden {
-  display: none;
+::-moz-selection {
+  background: var(--contrast, #fff);
+  color: var(--bg, #000);
 }
 
-svg {
-  width: 100%;
+::selection {
+  background: var(--contrast, #fff);
+  color: var(--bg, #000);
 }
 
-a {
-  color: #f04e45;
-}
-
-body, html {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 5vw;
+::-moz-selection {
+  background: var(--contrast, #fff);
+  color: var(--bg, #000);
 }
 
 body {
-  padding: 1rem;
+  padding: .7rem 2rem 3rem;
+  background: #fff;
+  background: var(--bg, #fff);
+  color: #000;
+  color: var(--contrast, #000);
+  font-family: 'IBM Plex Serif', serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-address {
-  margin-top: -.6rem;
-  padding: 1rem;
-  line-height: 1.4;
+h1, h2, h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
-address * {
+
+a {
+  color: #00f;
+  color: var(--iteraction, #00f);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 34rem;
+}
+
+.logo {
+  font-size: 12rem;
+}
+
+.tagline {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 4rem;
+  line-height: 1.15;
+}
+
+.address {
+  margin-top: 1.4rem;
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 1.6;
+}
+
+.members {
+  margin: 2rem 0;
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 1.3;
+}
+.members__link {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2rem;
   display: block;
 }
+.members__item {
+  margin-top: 1.25rem;
+}
 
-.tel {
-  margin-top: 1em;
+.button {
+  display: inline-block;
+  background: var(--iteraction);
+  color: var(--contrast);
+  padding: .3em 1.25em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: 0.1rem solid var(--contrast);
+  box-shadow: 0.25em 0.25em 0 0 var(--contrast);
+  transition: 150ms box-shadow ease-out, 150ms -webkit-transform ease-out;
+  transition: 150ms box-shadow ease-out, 150ms transform ease-out;
+  transition: 150ms box-shadow ease-out, 150ms transform ease-out, 150ms -webkit-transform ease-out;
+  will-change: box-shadow, transition;
+}
+.button:hover {
+  -webkit-transform: translate(-0.05em, -0.05em);
+          transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.025em 0.025em 0 0 var(--contrast);
+  text-decoration: none;
+}
+
+.rent {
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 1.5;
+}
+.rent__cta {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.letter {
+  display: inline-block;
+  -webkit-animation: 1500ms boing infinite alternate ease-in-out;
+          animation: 1500ms boing infinite alternate ease-in-out;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  will-change: transform;
+}
+.letter:nth-child(0) {
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
+.letter:nth-child(1) {
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+.letter:nth-child(2) {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+.letter:nth-child(3) {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+.letter:nth-child(4) {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+.letter:nth-child(5) {
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+.letter:nth-child(6) {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+.letter:nth-child(7) {
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+}
+.letter:nth-child(8) {
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+.letter:nth-child(9) {
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+.letter:nth-child(10) {
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+.letter:nth-child(11) {
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+}
+.letter:nth-child(12) {
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+.letter:nth-child(13) {
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+}
+.letter:nth-child(14) {
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+}
+.letter:nth-child(15) {
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+}
+.letter:nth-child(16) {
+  -webkit-animation-delay: 1600ms;
+          animation-delay: 1600ms;
+}
+.letter:nth-child(17) {
+  -webkit-animation-delay: 1700ms;
+          animation-delay: 1700ms;
+}
+.letter:nth-child(18) {
+  -webkit-animation-delay: 1800ms;
+          animation-delay: 1800ms;
+}
+.letter:nth-child(19) {
+  -webkit-animation-delay: 1900ms;
+          animation-delay: 1900ms;
+}
+.letter:nth-child(20) {
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
+}
+.letter:nth-child(21) {
+  -webkit-animation-delay: 2100ms;
+          animation-delay: 2100ms;
+}
+.letter:nth-child(22) {
+  -webkit-animation-delay: 2200ms;
+          animation-delay: 2200ms;
+}
+.letter:nth-child(23) {
+  -webkit-animation-delay: 2300ms;
+          animation-delay: 2300ms;
+}
+.letter:nth-child(24) {
+  -webkit-animation-delay: 2400ms;
+          animation-delay: 2400ms;
+}
+.letter:nth-child(25) {
+  -webkit-animation-delay: 2500ms;
+          animation-delay: 2500ms;
+}
+.letter:nth-child(26) {
+  -webkit-animation-delay: 2600ms;
+          animation-delay: 2600ms;
+}
+.letter:nth-child(27) {
+  -webkit-animation-delay: 2700ms;
+          animation-delay: 2700ms;
+}
+.letter:nth-child(28) {
+  -webkit-animation-delay: 2800ms;
+          animation-delay: 2800ms;
+}
+.letter:nth-child(29) {
+  -webkit-animation-delay: 2900ms;
+          animation-delay: 2900ms;
+}
+.letter:nth-child(30) {
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
+}
+.letter:nth-child(31) {
+  -webkit-animation-delay: 3100ms;
+          animation-delay: 3100ms;
+}
+.letter:nth-child(32) {
+  -webkit-animation-delay: 3200ms;
+          animation-delay: 3200ms;
+}
+.letter:nth-child(33) {
+  -webkit-animation-delay: 3300ms;
+          animation-delay: 3300ms;
+}
+.letter:nth-child(34) {
+  -webkit-animation-delay: 3400ms;
+          animation-delay: 3400ms;
+}
+.letter:nth-child(35) {
+  -webkit-animation-delay: 3500ms;
+          animation-delay: 3500ms;
+}
+.letter:nth-child(36) {
+  -webkit-animation-delay: 3600ms;
+          animation-delay: 3600ms;
+}
+.letter:nth-child(37) {
+  -webkit-animation-delay: 3700ms;
+          animation-delay: 3700ms;
+}
+.letter:nth-child(38) {
+  -webkit-animation-delay: 3800ms;
+          animation-delay: 3800ms;
+}
+.letter:nth-child(39) {
+  -webkit-animation-delay: 3900ms;
+          animation-delay: 3900ms;
+}
+.letter:nth-child(40) {
+  -webkit-animation-delay: 4000ms;
+          animation-delay: 4000ms;
+}
+a:hover .letter {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+@-webkit-keyframes boing {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes boing {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
 }
 </style>
 </head>
 <body>
-<h1>sugo.</h1>
-<span class="hidden">Web Consulting and Indipendent Project Manger</span>
-<address>
-  <strong>SUGO GmbH</strong>
-  <span>Zentralstrasse 43</span>
-  <span>8003 Zürich</span>
-  <span class="tel">+41 78 603 09 23</span>
-  <a href="https://www.linkedin.com/in/sdo1981">LinkedIn</a>
-</address>
+<main class="content">
+  <h1 class="logo">Z43</h1>
+  <h2 class="tagline">A network of passionate digital freelancers<h2>
+  <section>
+    <h3 class="visually-hidden">Members</h3>
+    <ul class="members">
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="https://www.diluno.com/"
+        >Diluno GmbH</a>
+        Web Development &amp; Interaction Design
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="http://elastiq.ch/"
+        >Elastiq GmbH</a>
+        Interaction Development &amp; Frontend
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="http://id50.me/"
+        >Sébastien Donzel</a>
+        Web/Digitalization Consultant, PM, Lecturer
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="https://www.atelier-perisset.ch/"
+        >Atelier Périsset</a>
+        Web-, UX/UI-Design und traditionelle Grafik
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="http://www.florianschulz.info"
+        >Florian Schulz</a>
+        Design, Apps & Bagels
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="https://twitter.com/shvi"
+        >Pierre Spring</a>
+        Freelance node.js and front-end 
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="http://www.vision11.ch/"
+        >Vision 11</a>
+        Immersive Design and beyond
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="http://infoplanic.ch/"
+        >Infoplanic GmbH</a>
+        Software Studio
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="https://mountainscreen.com/"
+        >Mountainscreen GmbH</a>
+        Software delight & digital experiences
+      </li>
+      <li class="members__item">
+        <a class="members__link js-charsplit"
+           href="http://codefour.ch/"
+        >Codefour GmbH</a>
+        Independent software development firm
+      </li>
+    </ul>
+  </section>
+  <aside class="rent">
+    <h3 class="visually-hidden">Rent a desk</h3>
+    <p class="rent__intro">We rent out one of our desks on a daily basis for 40.- /day. Includes free coffee, 1GB fiber and a team of experts to help and entertain you.</p>
+    <a class="rent__cta button" href="https://app.stairlin.com/z43-office/book/KnXjay9TM">Book a desk</a>
+    </aside>
+  <address class="address">
+    Zentralstrasse 43 <br/>
+    8003 Zürich
+  </address>
+</main>
+<script>
+var now = new Date();
+var hour = now.getHours();
+
+if (hour > 8 && hour < 21) {
+  document.documentElement.style.setProperty('--bg', '#fff');
+  document.documentElement.style.setProperty('--contrast', '#000');
+} else {
+  document.documentElement.style.setProperty('--bg', '#212121');
+  document.documentElement.style.setProperty('--contrast', '#fff');
+}
+
+var splitChars = Array.from(document.querySelectorAll('.js-charsplit'));
+var splitCharEl = '<span class="letter">';
+splitChars.forEach(function (chars) {
+  chars.innerHTML = '' + splitCharEl + chars.innerHTML.replace(' ', '\xA0').split('').join('</span>' + splitCharEl) + '</span>';
+});
+</script>
 </body>
 </html>
