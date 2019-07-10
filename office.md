@@ -3,6 +3,10 @@
 
 Es ist uns ein Anliegen, dass wir uns manchmal treffen um den Austausch zu fördern, Ideen und Gedanken auszutauschen und uns zu challengen. Komm vorbei, wir haben einen Arbeitsplatz für Tageseinsätze.
 
+Die idee des Netzwerks ist das wir uns ab und an treffen, gelegendlich zusammen arbeiten und uns austauschen. 
+
+Der Space an sich wird vom dem Hauptmieter (David A.)[@meodai] geführt, funktionert aber self managed: Prinzipiell kann **alles** gemacht und organisiert werden solage dies mit midestens einer Betroffenen Person und einer erfahrenen Person besprochen wurde. Unabhänig davon, was diese Personen geraten haben, darf die initierende Person eine freie (aber informierte) Entscheidung treffen, übernimmt jedoch die Verantwortung für mögliche Folgen.
+
 ## Inventar & Deko
 
 Das Inventar wird prinzipiell über die Miete gedeckt. Aussgeschlossen davon sind "Fancy" Bürostühle und Hardware (PC oder Screen). Hat jemand lust an der Einrichung oder Deko zu ändern, kann sie/er das gerne machen. Geht es um einen grösseren Betrag wird dies erst Besprochen. Und eventuell aufgeteilt oder über auch über die Miete abgerechnet.
