@@ -41,6 +41,7 @@ David A. Er ist der Haupmieter und schliesst mit den Mietern Untermietverträge 
 - Reinigungskraft
 - Kaffee im Office
 - Nutzung TV, Drucker & Internet 
+- Haftplichtversicherungen für Inventar der Teilnehmer/Mieter muss individuell abgeschlossen werden.
 
 ## Transparenz
 (Link zu google docs kosten & einnahmen)
