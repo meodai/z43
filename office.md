@@ -5,19 +5,29 @@ Es ist uns ein Anliegen, dass wir uns manchmal treffen um den Austausch zu förd
 
 Die idee des Netzwerks ist das wir uns ab und an treffen, gelegendlich zusammen arbeiten und uns austauschen. 
 
+## Self Management
 Der Space an sich wird vom dem Hauptmieter (David A.)[@meodai] gemietet, funktionert aber self-managed (https://de.wikipedia.org/wiki/Selbstmanagement): Prinzipiell kann **alles** gemacht und organisiert werden solage dies mit midestens zwei Betroffenen Person und einer erfahrenen Person besprochen wurde. Unabhänig davon, was diese Personen geraten haben, darf die initierende Person eine freie (aber informierte) Entscheidung treffen und übernimmt die Verantwortung für mögliche Folgen. Entscheidungen werden im #decisions channel auf dem z43 slack veröffentlicht.
 
 Slack Nachricht:
 - Entscheidung mit Herleitung
 - Wer wurde zu der Entscheidung befragt und was haben diese geraten.
 
-Beispiel:
+### Beispiel 1:
 **Aluminium wird nun auch Recycled.**
 
 Mir ist aufgefallen dass Alu oft im Müll landet. Ich finde dies aus Ökologischen gründen nicht gut.
 
 - David A. dachte, dass es nich Ökonomisch ist Alu zu sammeln. Nach etwas Letküre hat er jedoch seine Meinung geändert
 - Boris und Sam finden es auch Wichtig, dass Alu getrennt entsorgt wird.
+
+
+### Beispiel 2: 
+**Office Party**
+
+Ich würde gerne eine Office Party organisieren, brauche dazu jedoch Hilfe. Es würde nur bei gutem Wetter stattfinden, die Kosten dafür werden von den Teinehmenden in z43 geteilt. Eingeladen werden Freunde, Kunden und Nachbaren. Die Organisation der party findet im #party channel statt. Die Party sollte insgesammt nicht mehr als 2000.- kosten.
+
+- Sam. Boris, Lukas und Bastien finden das eine tolle idee und machen gerne mit.
+- Pierre hat bedenken zur Finanzierung und es ist ihm ein anliegen dass sein Anteil nich höher als 200.- ausfällt.
 
 ## Inventar & Deko
 
