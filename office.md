@@ -5,11 +5,23 @@ Es ist uns ein Anliegen, dass wir uns manchmal treffen um den Austausch zu förd
 
 Die idee des Netzwerks ist das wir uns ab und an treffen, gelegendlich zusammen arbeiten und uns austauschen. 
 
-Der Space an sich wird vom dem Hauptmieter (David A.)[@meodai] geführt, funktionert aber self managed: Prinzipiell kann **alles** gemacht und organisiert werden solage dies mit midestens einer Betroffenen Person und einer erfahrenen Person besprochen wurde. Unabhänig davon, was diese Personen geraten haben, darf die initierende Person eine freie (aber informierte) Entscheidung treffen, übernimmt jedoch die Verantwortung für mögliche Folgen.
+Der Space an sich wird vom dem Hauptmieter (David A.)[@meodai] gemietet, funktionert aber self-managed (https://de.wikipedia.org/wiki/Selbstmanagement): Prinzipiell kann **alles** gemacht und organisiert werden solage dies mit midestens zwei Betroffenen Person und einer erfahrenen Person besprochen wurde. Unabhänig davon, was diese Personen geraten haben, darf die initierende Person eine freie (aber informierte) Entscheidung treffen und übernimmt die Verantwortung für mögliche Folgen. Entscheidungen werden im #decisions channel auf dem z43 slack veröffentlicht.
+
+Slack Nachricht:
+- Entscheidung mit Herleitung
+- Wer wurde zu der Entscheidung befragt und was haben diese geraten.
+
+Beispiel:
+**Aluminium wird nun auch Recycled.**
+
+Mir ist aufgefallen dass Alu oft im Müll landet. Ich finde dies aus Ökologischen gründen nicht gut.
+
+- David A. dachte, dass es nich Ökonomisch ist Alu zu sammeln. Nach etwas Letküre hat er jedoch seine Meinung geändert
+- Boris und Sam finden es auch Wichtig, dass Alu getrennt entsorgt wird.
 
 ## Inventar & Deko
 
-Das Inventar wird prinzipiell über die Miete gedeckt. Aussgeschlossen davon sind "Fancy" Bürostühle und Hardware (PC oder Screen). Hat jemand lust an der Einrichung oder Deko zu ändern, kann sie/er das gerne machen. Geht es um einen grösseren Betrag wird dies erst Besprochen. Und eventuell aufgeteilt oder über auch über die Miete abgerechnet.
+Das Inventar wird prinzipiell über die Miete gedeckt. Aussgeschlossen davon sind "Fancy" Bürostühle und Hardware (PC oder Screen). Hat jemand lust an der Einrichung oder Deko zu ändern, kann sie/er das gerne machen. Geht es um einen grösseren Betrag wird dies erst Besprochen. Und eventuell aufgeteilt oder über auch über die Miete abgerechnet. Auch hier darf jede Entscheidung von jemdem getroffen werden, solage diese mit 2 betroffenen und 1 erfahrenen Person besprochen wurde.
 
 ## Vertrag
 David A. Er ist der Haupmieter und schliesst mit den Mietern Untermietverträge ab.
