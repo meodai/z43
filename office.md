@@ -47,24 +47,3 @@ David A. ist der Hauptmieter und schliesst mit den Mietern Untermietverträge ab
 
 ## Transparenz
 (Link zu google docs kosten & einnahmen)
-
-## Office Rules
-
-- Take calls outside, in the meeting room or in the kitchen.
-- Sit when you pee.
-- Unless labeled, you can eat and drink everything that is in the Fridge.
-
-### Tasks
-
-- We don't have a duty plan (yet).
-- Don't leave your dishes on the kitchen counter. Dirty dishes go into the dish-washer, clean dishes can be put away.
-- Plants:
-  - Please water the plants when they need water. They have a little orange marker in the pot with an "optimal" marking.
-  - During summer the plants outside need water, whenever the soil is dry.
-- Recycling: We do recycle at z43.
-  - When the recycling bins for aluminium, glass or PET are full, bring them to the corresponding recycling station (aluminium, glass: Zentralstrasse 74, PET: Migros)
-  - If you want to keep a box for a screen or something bring it to the basement. The key is behind the main entrance.
-  - Put cardboard in the back of the hallway. They need to be taken out once a month. (https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/sauberes_zuerich/persoenlicher_entsorgungskalender.html?street=Zentralstrasse&name=&houseNo=43&papier=true&karton=true&sonderabfall=true&q_type=showCalendar#resultStartTarget)
-  - We collect paper in the kitchen as well. We recommend that you throw documents containing senstive information into the regular trash.
-  - When the trash is full, bring it to the containers outside of the office.
-  - Please remove trash, empty bottles, and glasses from your desk when you go home.
