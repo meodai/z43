@@ -27,7 +27,3 @@ Jeder von uns kennt seine Kompetenzen und Grenzen, aber auch gute Leute im um di
 ## Für Mitglieder
 
 Wir teilen uns einen gemeinsamen Ort an der Zentralstrasse 43. Aber auch angrenzende Räumlichkeiten oder Expertisen werden in Zukunft in dieses Netzwerk wachsen.
-
-## Share a physical space
-
-Es ist uns ein Anliegen, dass wir uns manchmal treffen um den Austausch zu fördern, Ideen und Gedanken auszutauschen und uns zu challengen. Komm vorbei, wir haben einen Arbeitsplatz für Tageseinsätze.
